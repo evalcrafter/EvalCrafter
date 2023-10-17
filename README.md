@@ -1,4 +1,4 @@
-### EvalCrafter: Benchmarking and Evaluating Large Video Generation Models
+## EvalCrafter: Benchmarking and Evaluating Large Video Generation Models
 [Pages](evalcrafter.github.io) | [Paper](TODO)
 
 <div style='text-align:center'>
