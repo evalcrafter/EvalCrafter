@@ -14,7 +14,7 @@
 #### 🎊 open an issue if you want us to evaluate a new method!
 
 
-## Know more about Video Generation at:
+## Know More About Video Generation at:
 
 - [VideoCrafter1: Open Diffusion Models for High-Quality Video Generation](https://github.com/AILab-CVC/VideoCrafter)
 - [ScaleCrafter: Tuning-free Higher-Resolution Visual Generation with Diffusion Models](https://github.com/YingqingHe/ScaleCrafter)
