@@ -13,8 +13,6 @@
 
 #### 🔆 watching our project for more findings, the evaluation code
 
-#### 🎊 open an issue if you want us to evaluate a new method!
-
 
 ## Know More About Video Generation at:
 
