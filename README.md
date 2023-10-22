@@ -5,7 +5,7 @@
 <img src="https://github.com/evalcrafter/evalcrafter/assets/4397546/818c9b0d-35ac-4edf-aafc-ae17e92c6da5"  width="250"  />
 </div>
 
-#### 🔥 Release prompt list at  [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/evalcrafter_prompt.txt)! You can generate the resulting video and send it to vinthony@gmail.com for evaluation!
+#### 🔥 2023/10/22: Release prompt list at  [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/evalcrafter_prompt.txt)! You can generate the resulting video and send it to vinthony@gmail.com for evaluation!
 
 #### 🚧 still works in progress!
 
