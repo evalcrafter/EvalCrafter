@@ -1,5 +1,5 @@
 ## EvalCrafter: Benchmarking and Evaluating Large Video Generation Models
-[Pages](http://evalcrafter.github.io) | [Paper@ArXiv](https://arxiv.org/abs/2310.11440) | [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/evalcrafter_prompt.txt)
+[Pages](http://evalcrafter.github.io) · [Paper@ArXiv](https://arxiv.org/abs/2310.11440) · [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/evalcrafter_prompt.txt) · [HuggingFace Space](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)
 
 <div style='text-align:center'>
 <img src="https://github.com/evalcrafter/evalcrafter/assets/4397546/818c9b0d-35ac-4edf-aafc-ae17e92c6da5"  width="250"  />
