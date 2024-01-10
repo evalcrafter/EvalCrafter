@@ -37,9 +37,6 @@ for file_path in txt_files:
                 content = file.read()
                 # ipdb.set_trace()
                 metrics_dict["IS"] = float(content.split(": ")[1].split(",")[0])
-# ipdb.set_trace()
-# face_consistency_score = float(content.split("Final")[1].split(": ")[1].split(",")[0])
-    # print(face_consistency_score)
 
 # Dover
 import csv
@@ -50,19 +47,8 @@ with open(dover_file, "r") as file:
         last_row = row
     # ipdb.set_trace()
     metrics_dict["VQA_A"] = float(last_row[0].split(": ")[1])
-    # metrics_dict["VQA_T"] = float(last_row[1].split(" ")[1])
     metrics_dict["VQA_T"] = float(last_row[1])
 
-# test Gen2
-# metrics_dict = {'VQA_A': 59.44, 'VQA_T': 76.51, 'IS': 14.53, 'clip_temp_score': 99.94/100, 'warping_error': 0.0008, 'face_consistency_score': 99.06/100, 
-# 'action_score': 62.53/100, 'motion_ac_score': 44.0/100, 'flow_score': 0.7, 'clip_score': 20.53/100, 'blip_bleu': 22.24/100, 'sd_score': 68.58/100,
-#  'detection_score': 64.05/100, 'color_score': 37.56/100, 'count_score': 53.31/100, 'ocr_score': 75.0/100, 'celebrity_id_score': 41.25/100}
-
-# replace 
-# rep = {'VQA_A': 58.91, 'VQA_T': 58.5} #  , 'warping_error': 0.0101, 'flow_score': 5.76 
-# rep = {'VQA_A': 61.93, 'VQA_T': 48.11} # , 'warping_error': 0.025, 'flow_score': 17.33
-# for key in rep.keys():
-#     metrics_dict[key] = rep[key]
 
 quality_weights = np.array([0.03004555, 0.02887537, -0.01382558])*5
 quality_intercept = 0.08707462696457707*5
@@ -77,7 +63,6 @@ motion_intercept = 0.1297562020899355*5
 motion_metrics = np.array([metrics_dict["action_score"], metrics_dict["motion_ac_score"], metrics_dict["flow_score"]/100])
 
 t2v_align_weights = np.array([-0.0701577, 0.02561424, 0.05566109, 0.0173974, -0.020954, 0.03069167, 0.00372351, 0.22686202]) * 5
-# t2v_align_intercept = 0.16549565907215893 * 5
 t2v_align_intercept = -0.30683181901390977
 
 t2v_align_metrics = np.array([metrics_dict["clip_score"], metrics_dict["blip_bleu"], metrics_dict["sd_score"], metrics_dict["detection_score"], metrics_dict["color_score"], metrics_dict["count_score"], 1 - metrics_dict["ocr_score"], 1- metrics_dict["celebrity_id_score"]])
@@ -124,7 +109,4 @@ stream_handler.setFormatter(logging.Formatter("%(asctime)s %(message)s", datefmt
 logger.addHandler(stream_handler)
 logging.info(f"Metrics: {metrics_dict}")
 logging.info(f"Results: Visual Quality {quality:.2f}, Text-Video Alignment {t2v_align:.2f}, Motion Quality {motion:.2f}, Temporal Consistency {temporal:.2f}, Total {total:.0f} \n")
-
-# print(f"Metrics: {metrics_dict}")
-# print(f"Results: Visual Quality {quality:.2f}, Text-Video Alignment {t2v_align:.2f}, Motion Quality {motion:.2f}, Temporal Consistency {temporal:.2f}, Total {total:.0f} \n")
 

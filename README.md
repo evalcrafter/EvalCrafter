@@ -1,6 +1,6 @@
 # EvalCrafter: Benchmarking and Evaluating Large Video Generation Models 🎥📊
 
-[Pages](http://evalcrafter.github.io) · [Paper@ArXiv](https://arxiv.org/abs/2310.11440) · [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/evalcrafter_prompt.txt) · [Huggingface Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)
+[Project Page](http://evalcrafter.github.io) · [Huggingface Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)· [Paper@ArXiv](https://arxiv.org/abs/2310.11440) · [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
 
 <div align="center">
 <img src="https://github.com/evalcrafter/evalcrafter/assets/4397546/818c9b0d-35ac-4edf-aafc-ae17e92c6da5" width="250"/>
@@ -8,7 +8,7 @@
 
 Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated videos. Our innovative framework assesses generative models across visual, content, and motion qualities using 17 objective metrics and subjective user opinions, providing a reliable ranking for state-of-the-art text-to-video generation models. Dive into the world of unified and user-centric evaluation with EvalCrafter! 🚀🌍📊
 
-#### 🔥 2023/10/22: Release prompt list at [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/evalcrafter_prompt.txt)! You can generate the resulting video and send it to vinthony@gmail.com for evaluation!
+#### 🔥 2023/10/22: Release prompt list at [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt)! You can generate the resulting video and send it to vinthony@gmail.com for evaluation!
 
 #### 🔥 2024/01/10: Code and docker released!
 
@@ -23,6 +23,7 @@ Clone the repository:
 
    ```bash
    git clone https://github.com/evalcrafter/EvalCrafter
+   cd EvalCrafter
    ```
 
 ## Data Preparation 📚
@@ -41,8 +42,15 @@ Generate videos of your model using the 700 prompts provided in `prompt700.txt` 
 ```
 
 ## Pretrained Models 🧠
-Please download  all the pretrained models following `./checkpoints/README.md` and organize them in this structure: 
+Please download all checkpoints using 
+```
+cd checkpoints
+bash download.sh
+```
 
+Alternatively, you can follow `./checkpoints/README.md` to download pretrained models for specific metrics.
+
+Note: Please organize the pretrained models in this structure: 
 ```
 /EvalCrafter/checkpoints/
 ├── bert-base-uncased
@@ -63,23 +71,61 @@ Please download  all the pretrained models following `./checkpoints/README.md` a
 
 <!-- Alternatively, Download all the pretrained models from [Huggingface](https://huggingface.co/RaphaelLiu/EvalCrafter-Models) -->
 
-## Setup 🛠️
 
-### Run with Docker 🐳
+## Setup 🛠️ 
 
-1. Download the Docker image:
+### Download Docker Image  🐳
+
+Download the Docker image:
 
    ```
    docker pull bruceli1u1/evalcrafter:v1
    ```
 
-2. Run the Docker container:
+## Usage 🚀
+
+### Running the Whole Pipeline
+
+1. Run with command line:
 
    ```
-   docker run --runtime=nvidia -it --shm-size "15G" -v $your_local_path_to_EvalCrafter:$your_local_path_to_EvalCrafter \
-       bruceliu1/evalcrafter:v1 bash
+   docker run -it -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 \
+      bash -c "source /opt/conda/bin/activate EvalCrafter \
+         && bash $bash_file $EC_path $EC_path/videos"
    ```
-Please replace $your_local_path_to_EvalCrafter with your local path.
+
+🔁 Please replace `$EC_path`, `$bash_file`, and `$dir_videos` with your local path to `EvalCrafter`, `EvalCrafter/start.sh`, and `EvalCrafter/videos`, respectively. For example:
+
+   ```
+   docker run -it -v /home/EvalCrafter:/home/EvalCrafter bruceliu1/evalcrafter:v1 \
+      bash -c "source /opt/conda/bin/activate EvalCrafter && bash /home/EvalCrafter/start.sh \
+         /home/EvalCrafter/ /home/EvalCrafter/videos"
+   ```
+
+Alternatively, you can:
+
+2. Enter the Docker container and run:
+
+   ```
+   docker run -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 bash
+   cd $EC_path
+   bash start.sh $EC_path $dir_videos
+   ```
+
+🔁 Please replace `$EC_path` and `$dir_videos` with your local paths to `EvalCrafter` and `EvalCrafter/videos`, respectively.
+
+#### Running a Single Metric
+
+🔧 To test a specific metric, pick out the code for the metric in `start.sh`. For example, to test the Celebrity ID Score:
+
+   ```
+   docker run -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 bash
+   cd $EC_path
+   cd /metrics/deepface
+   python3 celebrity_id_score.py --dir_videos $dir_videos
+   ```
+
+🔁 Please replace `$EC_path` and `$dir_videos` with your local paths to `EvalCrafter` and `EvalCrafter/videos`, respectively.
 
 <!-- ### Run with Conda 🍃
 
@@ -88,24 +134,8 @@ Please replace $your_local_path_to_EvalCrafter with your local path.
    ```
    conda env create -f EvalCrafter_env.yml
    conda activate EvalCrafter
-   cd $your_local_path_to_EvalCrafter$
+   cd $EC_path$
    ``` -->
-
-## Usage 💡
-
-1. Run the complete evaluation pipeline:
-
-   ```
-   bash start.sh
-   ```
-
-2. To test a single metric, pick out the code for the metric in `start.sh`. For example, to test the Celebrity ID Score:
-
-   ```
-   cd /metrics/deepface
-   python3 celebrity_id_score.py --dir_videos './videos'
-   ```
-   
   
 ## Acknowledgements 🙏
 
