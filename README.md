@@ -115,7 +115,7 @@ Alternatively, you can:
 
 🔁 Please replace `$EC_path` and `$dir_videos` with your local paths to `EvalCrafter` and `EvalCrafter/videos`, respectively.
 
-#### Running a Single Metric
+### Running a Single Metric
 
 🔧 To test a specific metric, pick out the code for the metric in `start.sh`. For example, to test the Celebrity ID Score:
 
