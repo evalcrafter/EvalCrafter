@@ -1,10 +1,6 @@
 # EvalCrafter: Benchmarking and Evaluating Large Video Generation Models 🎥📊
 
-<<<<<<< HEAD
 [Project Page](http://evalcrafter.github.io) · [Huggingface Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)· [Paper@ArXiv](https://arxiv.org/abs/2310.11440) · [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
-=======
-[Pages](http://evalcrafter.github.io) · [Paper@ArXiv](https://arxiv.org/abs/2310.11440) · [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) · [Huggingface Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)
->>>>>>> e0647014b6e70042a050b6a33d171fefd9f5c2a2
 
 <div align="center">
 <img src="https://github.com/evalcrafter/evalcrafter/assets/4397546/818c9b0d-35ac-4edf-aafc-ae17e92c6da5" width="250"/>
