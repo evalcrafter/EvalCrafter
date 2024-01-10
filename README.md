@@ -11,7 +11,7 @@
 
 #### 🔆 join our discord to enjoy free text-to-video generation and more: [![Discord](https://dcbadge.vercel.app/api/server/rrayYqZ4tf?style=flat)](https://discord.gg/rrayYqZ4tf)
 
-#### 🔆 watching our project for more findings, the evaluation code
+#### 🔆 watching our project for more findings, the evaluation 
 
 
 ## Know More About Video Generation at:
