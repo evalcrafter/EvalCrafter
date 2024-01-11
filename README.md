@@ -77,8 +77,6 @@ Note: Please organize the pretrained models in this structure:
 
 ### Download Docker Image  🐳
 
-Download the Docker image:
-
    ```
    docker pull bruceli1u1/evalcrafter:v1
    ```
@@ -95,13 +93,13 @@ Download the Docker image:
          && bash $bash_file $EC_path $EC_path/videos"
    ```
 
-🔁 Please replace `$EC_path`, `$bash_file`, and `$dir_videos` with your local path to `EvalCrafter`, `EvalCrafter/start.sh`, and `EvalCrafter/videos`, respectively. For example:
+   🔁 Please replace `$EC_path`, `$bash_file`, and `$dir_videos` with your local path to `EvalCrafter`, `EvalCrafter/start.sh`, and `EvalCrafter/videos`, respectively. For example:
 
-   ```
-   docker run -it -v /home/EvalCrafter:/home/EvalCrafter bruceliu1/evalcrafter:v1 \
-      bash -c "source /opt/conda/bin/activate EvalCrafter && bash /home/EvalCrafter/start.sh \
-         /home/EvalCrafter/ /home/EvalCrafter/videos"
-   ```
+      ```
+      docker run -it -v /home/EvalCrafter:/home/EvalCrafter bruceliu1/evalcrafter:v1 \
+         bash -c "source /opt/conda/bin/activate EvalCrafter && bash /home/EvalCrafter/start.sh \
+            /home/EvalCrafter/ /home/EvalCrafter/videos"
+      ```
 
 Alternatively, you can:
 
@@ -113,7 +111,7 @@ Alternatively, you can:
    bash start.sh $EC_path $dir_videos
    ```
 
-🔁 Please replace `$EC_path` and `$dir_videos` with your local paths to `EvalCrafter` and `EvalCrafter/videos`, respectively.
+   🔁 Please replace `$EC_path` and `$dir_videos` with your local paths to `EvalCrafter` and `EvalCrafter/videos`, respectively.
 
 ### Running a Single Metric
 
@@ -138,17 +136,7 @@ Alternatively, you can:
    cd $EC_path$
    ``` -->
 
-## Citation
-If you find this repository helpful, please consider citing it in your research:
 
-   ```
-   @article{liu2023evalcrafter,
-  title={Evalcrafter: Benchmarking and evaluating large video generation models},
-  author={Liu, Yaofang and Cun, Xiaodong and Liu, Xuebo and Wang, Xintao and Zhang, Yong and Chen, Haoxin and Liu, Yang and Zeng, Tieyong and Chan, Raymond and Shan, Ying},
-  journal={arXiv preprint arXiv:2310.11440},
-  year={2023}
-   }
-   ```
 
 ## Acknowledgements 🙏
 
@@ -169,9 +157,17 @@ This work is based on the following open-source repositories:
 
 We would like to express our gratitude to the authors and contributors of these projects for making their code and models available. Your work has greatly contributed to the development of EvalCrafter. 🎉👏
 
----
+## Citation
+If you find this repository helpful, please consider citing it in your research:
 
-Thank you for using EvalCrafter! We hope this toolkit helps you evaluate and improve your AI-generated videos with ease and efficiency. If you have any questions, suggestions, or feedback, please feel free to open an issue or submit a pull request. Happy evaluating! 🚀🌟
+   ```
+   @article{liu2023evalcrafter,
+  title={Evalcrafter: Benchmarking and evaluating large video generation models},
+  author={Liu, Yaofang and Cun, Xiaodong and Liu, Xuebo and Wang, Xintao and Zhang, Yong and Chen, Haoxin and Liu, Yang and Zeng, Tieyong and Chan, Raymond and Shan, Ying},
+  journal={arXiv preprint arXiv:2310.11440},
+  year={2023}
+   }
+   ```
 
 
 ## Know More About Video Generation at:
@@ -180,3 +176,7 @@ Thank you for using EvalCrafter! We hope this toolkit helps you evaluate and imp
 - [ScaleCrafter: Tuning-free Higher-Resolution Visual Generation with Diffusion Models](https://github.com/YingqingHe/ScaleCrafter)
 - [TaleCrafter: Interactive Story Visualization with Multiple Characters](https://github.com/AILab-CVC/TaleCrafter)
 
+
+---
+
+Thank you for using EvalCrafter! We hope this toolkit helps you evaluate and improve your AI-generated videos with ease and efficiency. If you have any questions, suggestions, or feedback, please feel free to open an issue or submit a pull request. Happy evaluating! 🚀🌟
