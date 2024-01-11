@@ -97,8 +97,8 @@ Note: Please organize the pretrained models in this structure:
 
       ```
       docker run -it -v /home/EvalCrafter:/home/EvalCrafter bruceliu1/evalcrafter:v1 \
-         bash -c "source /opt/conda/bin/activate EvalCrafter && bash /home/EvalCrafter/start.sh \
-            /home/EvalCrafter/ /home/EvalCrafter/videos"
+         bash -c "source /opt/conda/bin/activate EvalCrafter && bash \
+         /home/EvalCrafter/start.sh /home/EvalCrafter/ /home/EvalCrafter/videos"
       ```
 
 Alternatively, you can:
