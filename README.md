@@ -93,13 +93,7 @@ Note: Please organize the pretrained models in this structure:
          && bash $bash_file $EC_path $EC_path/videos"
    ```
 
-   🔁 Please replace `$EC_path`, `$bash_file`, and `$dir_videos` with your local path to `EvalCrafter`, `EvalCrafter/start.sh`, and `EvalCrafter/videos`, respectively. For example:
-
-      ```
-      docker run -it -v /home/EvalCrafter:/home/EvalCrafter bruceliu1/evalcrafter:v1 \
-         bash -c "source /opt/conda/bin/activate EvalCrafter && bash \
-         /home/EvalCrafter/start.sh /home/EvalCrafter/ /home/EvalCrafter/videos"
-      ```
+   🔁 Please replace `$EC_path`, `$bash_file`, and `$dir_videos` with your local path to `EvalCrafter`, `EvalCrafter/start.sh`, and `EvalCrafter/videos`, respectively. 
 
 Alternatively, you can:
 
@@ -111,8 +105,6 @@ Alternatively, you can:
    bash start.sh $EC_path $dir_videos
    ```
 
-   🔁 Please replace `$EC_path` and `$dir_videos` with your local paths to `EvalCrafter` and `EvalCrafter/videos`, respectively.
-
 ### Running a Single Metric
 
 🔧 To test a specific metric, pick out the code for the metric in `start.sh`. For example, to test the Celebrity ID Score:
@@ -123,8 +115,6 @@ Alternatively, you can:
    cd /metrics/deepface
    python3 celebrity_id_score.py --dir_videos $dir_videos
    ```
-
-🔁 Please replace `$EC_path` and `$dir_videos` with your local paths to `EvalCrafter` and `EvalCrafter/videos`, respectively.
 
 <!-- ### Run with Conda 🍃
 
@@ -155,8 +145,6 @@ This work is based on the following open-source repositories:
 - [HRS-Bench](https://github.com/eslambakr/HRS_benchmark)
 - [fast_blind_video_consistency](https://github.com/phoenix104104/fast_blind_video_consistency)
 
-We would like to express our gratitude to the authors and contributors of these projects for making their code and models available. Your work has greatly contributed to the development of EvalCrafter. 🎉👏
-
 ## Citation
 If you find this repository helpful, please consider citing it in your research:
 
@@ -176,7 +164,3 @@ If you find this repository helpful, please consider citing it in your research:
 - [ScaleCrafter: Tuning-free Higher-Resolution Visual Generation with Diffusion Models](https://github.com/YingqingHe/ScaleCrafter)
 - [TaleCrafter: Interactive Story Visualization with Multiple Characters](https://github.com/AILab-CVC/TaleCrafter)
 
-
----
-
-Thank you for using EvalCrafter! We hope this toolkit helps you evaluate and improve your AI-generated videos with ease and efficiency. If you have any questions, suggestions, or feedback, please feel free to open an issue or submit a pull request. Happy evaluating! 🚀🌟
