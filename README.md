@@ -137,7 +137,19 @@ Alternatively, you can:
    conda activate EvalCrafter
    cd $EC_path$
    ``` -->
-  
+
+## Citation
+If you find this repository helpful, please consider citing it in your research:
+
+   ```
+   @article{liu2023evalcrafter,
+  title={Evalcrafter: Benchmarking and evaluating large video generation models},
+  author={Liu, Yaofang and Cun, Xiaodong and Liu, Xuebo and Wang, Xintao and Zhang, Yong and Chen, Haoxin and Liu, Yang and Zeng, Tieyong and Chan, Raymond and Shan, Ying},
+  journal={arXiv preprint arXiv:2310.11440},
+  year={2023}
+   }
+   ```
+
 ## Acknowledgements 🙏
 
 This work is based on the following open-source repositories:
@@ -160,6 +172,7 @@ We would like to express our gratitude to the authors and contributors of these 
 ---
 
 Thank you for using EvalCrafter! We hope this toolkit helps you evaluate and improve your AI-generated videos with ease and efficiency. If you have any questions, suggestions, or feedback, please feel free to open an issue or submit a pull request. Happy evaluating! 🚀🌟
+
 
 ## Know More About Video Generation at:
 
