@@ -58,8 +58,6 @@ Note: Please organize the pretrained models in this structure:
 ├── blip2-opt-2.7b
 ├── ckpt
 ├── clip-vit-base-patch32
-├── clip_vit_base_patch32_config.json
-├── clip_vit_base_patch32_pytorch_model.bin
 ├── Dover
 ├── FlowNet2_checkpoint.pth.tar
 ├── pt_inception-2015-12-05-6726825d.pth
