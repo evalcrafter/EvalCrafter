@@ -76,7 +76,7 @@ Note: Please organize the pretrained models in this structure:
 ### Download Docker Image  🐳
 
    ```
-   docker pull bruceli1u1/evalcrafter:v1
+   docker pull bruceliu1/evalcrafter:v1
    ```
 
 ## Usage 🚀
