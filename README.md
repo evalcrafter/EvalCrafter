@@ -1,6 +1,6 @@
 # EvalCrafter: Benchmarking and Evaluating Large Video Generation Models 🎥📊
 
-[Project Page](http://evalcrafter.github.io) · [Huggingface Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)· [Paper@ArXiv](https://arxiv.org/abs/2310.11440) · [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
+[Project Page](http://evalcrafter.github.io) · [Huggingface Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)· [Paper@ArXiv](https://arxiv.org/abs/2310.11440)· [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset)· [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
 
 
 <div align="center">
@@ -12,6 +12,8 @@ Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated vide
 #### 🔥 ~~2023/10/22: Release prompt list at [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt)! You can generate the resulting video and send it to vinthony@gmail.com for evaluation!~~
 
 #### 🔥 2024/01/10: Code and docker released!
+
+#### 🔥 2024/01/24: EvalCrafter Text-to-Video (ECTV) dataset released, around 10000 AI-generated videos in total, take a look at [here](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset)!
 
 #### 🔆 Join our Discord to enjoy free text-to-video generation and more: [![Discord](https://dcbadge.vercel.app/api/server/rrayYqZ4tf?style=flat)](https://discord.gg/rrayYqZ4tf)
 
