@@ -18,6 +18,17 @@ wget -O pt_inception-2015-12-05-6726825d.pth "https://github.com/w86763777/pytor
 cd DOVER/pretrained_weights  
 wget https://github.com/QualityAssessment/DOVER/releases/download/v0.1.0/DOVER.pth 
 wget https://github.com/QualityAssessment/DOVER/releases/download/v0.5.0/DOVER-Mobile.pth
+cd ..
+wget https://dl.fbaipublicfiles.com/convnext/convnext_tiny_1k_224_ema.pth
+wget https://dl.fbaipublicfiles.com/convnext/convnext_small_1k_224_ema.pth
+wget https://dl.fbaipublicfiles.com/convnext/convnext_base_1k_224_ema.pth
+wget https://dl.fbaipublicfiles.com/convnext/convnext_large_1k_224_ema.pth
+wget https://dl.fbaipublicfiles.com/convnext/convnext_tiny_22k_224.pth
+wget https://dl.fbaipublicfiles.com/convnext/convnext_small_22k_224.pth
+wget https://dl.fbaipublicfiles.com/convnext/convnext_base_22k_224.pth
+wget https://dl.fbaipublicfiles.com/convnext/convnext_large_22k_224.pth
+wget https://dl.fbaipublicfiles.com/convnext/convnext_xlarge_22k_224.pth
+
 cd ../..
 
 # CLIP-Score, Face Consistency, CLIP-Temp, Action Score
