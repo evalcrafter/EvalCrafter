@@ -88,7 +88,7 @@ Note: Please organize the pretrained models in this structure:
 1. Run with command line:
 
    ```
-   docker run -it -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 \
+   docker run -it --runtime=nvidia -it --shm-size "15G" -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 \
       bash -c "source /opt/conda/bin/activate EvalCrafter \
          && bash $bash_file $EC_path $EC_path/videos"
    ```
@@ -100,7 +100,7 @@ Alternatively, you can:
 2. Enter the Docker container and run:
 
    ```
-   docker run -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 bash
+   docker run --runtime=nvidia -it --shm-size "15G" -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 bash
    cd $EC_path
    bash start.sh $EC_path $dir_videos
    ```
@@ -110,7 +110,7 @@ Alternatively, you can:
 🔧 To test a specific metric, pick out the code for the metric in `start.sh`. For example, to test the Celebrity ID Score:
 
    ```
-   docker run -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 bash
+   docker run --runtime=nvidia -it --shm-size "15G" -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 bash
    cd $EC_path
    cd /metrics/deepface
    python3 celebrity_id_score.py --dir_videos $dir_videos
