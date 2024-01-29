@@ -602,15 +602,15 @@ class ConvNeXtV23D(nn.Module):
 #     return model
 
 model_urls = {
-    "convnext_tiny_1k": "../../checkpoints/Dover/convnext_tiny_1k.pth",
-    "convnext_small_1k": "../../checkpoints/Dover/convnext_small_1k.pth",
-    "convnext_base_1k": "../../checkpoints/Dover/convnext_base_1k.pth",
-    "convnext_large_1k": "../../checkpoints/Dover/convnext_large_1k.pth",
-    "convnext_tiny_22k": "../../checkpoints/Dover/convnext_tiny_22k.pth",
-    "convnext_small_22k": "../../checkpoints/Dover/convnext_small_22k.pth",
-    "convnext_base_22k": "../../checkpoints/Dover/convnext_base_22k.pth",
-    "convnext_large_22k": "../../checkpoints/Dover/convnext_large_22k.pth",
-    "convnext_xlarge_22k": "../../checkpoints/Dover/convnext_xlarge_22k.pth",
+    "convnext_tiny_1k": "../../checkpoints/DOVER/convnext_tiny_1k_224_ema.pth",
+    "convnext_small_1k": "../../checkpoints/DOVER/convnext_small_1k_224_ema.pth",
+    "convnext_base_1k": "../../checkpoints/DOVER/convnext_base_1k_224_ema.pth",
+    "convnext_large_1k": "../../checkpoints/DOVER/convnext_large_1k_224_ema.pth",
+    "convnext_tiny_22k": "../../checkpoints/DOVER/convnext_tiny_22k_224.pth",
+    "convnext_small_22k": "../../checkpoints/DOVER/convnext_small_22k_224.pth",
+    "convnext_base_22k": "../../checkpoints/DOVER/convnext_base_22k_224.pth",
+    "convnext_large_22k": "../../checkpoints/DOVER/convnext_large_22k_224.pth",
+    "convnext_xlarge_22k": "../../checkpoints/DOVER/convnext_xlarge_22k_224.pth",
 }
 
 def convnext_tiny(pretrained=False, in_22k=False, **kwargs):
