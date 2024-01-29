@@ -29,7 +29,7 @@ wget https://dl.fbaipublicfiles.com/convnext/convnext_base_22k_224.pth
 wget https://dl.fbaipublicfiles.com/convnext/convnext_large_22k_224.pth
 wget https://dl.fbaipublicfiles.com/convnext/convnext_xlarge_22k_224.pth
 
-cd ../..
+cd ..
 
 # CLIP-Score, Face Consistency, CLIP-Temp, Action Score
 git lfs install
