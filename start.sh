@@ -6,7 +6,7 @@ dir_videos=$2
 
 # Celebrity ID Score
 cd $EC_path
-cd ../metrics/deepface
+cd ./metrics/deepface
 python3 celebrity_id_score.py --dir_videos  $dir_videos
 
 # IS
