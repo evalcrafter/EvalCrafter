@@ -88,7 +88,7 @@ Note: Please organize the pretrained models in this structure:
 1. Run with command line:
 
    ```
-   docker run -it --runtime=nvidia -it --shm-size "15G" -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 \
+   docker run --runtime=nvidia -it --shm-size "15G" -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 \
       bash -c "source /opt/conda/bin/activate EvalCrafter \
          && bash $bash_file $EC_path $EC_path/videos"
    ```
