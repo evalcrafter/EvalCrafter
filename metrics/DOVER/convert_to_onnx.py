@@ -26,7 +26,7 @@ class MinimumDOVER(nn.Module):
     
 import torch
 minimum_dover = MinimumDOVER()
-sd = torch.load("../../checkpoints/Dover/pretrained_weights/DOVER.pth", map_location="cpu")
+sd = torch.load("../../checkpoints/DOVER/pretrained_weights/DOVER.pth", map_location="cpu")
 minimum_dover.load_state_dict(sd)
 
 if torch.cuda.is_available():
