@@ -7,7 +7,7 @@ assets/*gif
 *.pyc
 debug
 cym_utils
-/src
+# /src
 /tracking_results
 /aot/results
 /aot/pretrain_models
