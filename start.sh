@@ -2,7 +2,7 @@ EC_path=$1
 dir_videos=$2
 
 # [need for speicific platform] pip install spatial_correlation_sampler
-# pip install spatial_correlation_sampler==0.4.0 --index-url https://mirrors.tencent.com/pypi/simple/
+pip install spatial_correlation_sampler==0.4.0
 
 # Celebrity ID Score
 cd $EC_path
