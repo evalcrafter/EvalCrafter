@@ -9,3 +9,4 @@ start_multiple.sh
 noise_log.txt
 noise_to_prompts.py
 checkpoints/
+videos/
