@@ -1,6 +1,6 @@
 # EvalCrafter: Benchmarking and Evaluating Large Video Generation Models (CVPR 2024) 🎥📊
 
-[Project Page](http://evalcrafter.github.io) · [Huggingface Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)· [Paper@ArXiv](https://arxiv.org/abs/2310.11440)· [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset)· [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
+[Project Page](http://evalcrafter.github.io) · [Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)· [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery)· [Paper@ArXiv](https://arxiv.org/abs/2310.11440)· [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset)· [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
 
 
 <div align="center">
