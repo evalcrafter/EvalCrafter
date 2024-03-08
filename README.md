@@ -17,7 +17,7 @@ Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated vide
 
 #### 🔥 2024/03/07:  Dive into the exciting world of AI-Created Videos at our [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) 🌌✨!
 
-![AI-Created Video Gallery](https://github.com/evalcrafter/EvalCrafter/blob/master/Gallery.MP4)
+![AI-Created Video Gallery](https://github.com/evalcrafter/EvalCrafter/blob/master/Gallery.mp4)
 
 #### 🔆 Join our Discord to enjoy free text-to-video generation and more: [![Discord](https://dcbadge.vercel.app/api/server/rrayYqZ4tf?style=flat)](https://discord.gg/rrayYqZ4tf)
 
