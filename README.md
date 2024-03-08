@@ -15,7 +15,7 @@ Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated vide
 
 #### 🔥 2024/01/24: EvalCrafter Text-to-Video (ECTV) dataset released, around 10000 AI-generated videos in total, take a look at [here](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset)!
 
-#### ✨ 2024/03/07:  Dive into the exciting world of AI-Created Videos at our [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) 🌌!
+#### 🔥 2024/03/07:  Dive into the exciting world of AI-Created Videos at our [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) 🌌✨!
 
 #### 🔆 Join our Discord to enjoy free text-to-video generation and more: [![Discord](https://dcbadge.vercel.app/api/server/rrayYqZ4tf?style=flat)](https://discord.gg/rrayYqZ4tf)
 
