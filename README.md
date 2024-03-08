@@ -17,7 +17,8 @@ Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated vide
 
 #### 🔥 2024/03/07:  Dive into the exciting world of AI-Created Videos at our [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) 🌌✨!
 
-<video src="https://github.com/evalcrafter/EvalCrafter/blob/master/Gallery.mp4" autoplay loop muted>
+<video controls autoplay loop>
+  <source src="https://github.com/evalcrafter/EvalCrafter/blob/master/Gallery.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
