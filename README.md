@@ -131,7 +131,30 @@ Alternatively, you can:
    cd $EC_path$
    ``` -->
 
+## EvalCrafter Gallery🌌
+Please ref to [EvalBoard](https://github.com/your-username/EvalBoard.git) to use it.
+1. Clone the repository:
 
+   ```
+   git clone https://github.com/your-username/EvalBoard.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd EvalBoard
+   ```
+
+3. Install the required dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. Start EvalBoard:
+      ```
+      python app.py
+      ```
 
 ## Acknowledgements 🙏
 
