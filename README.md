@@ -1,6 +1,6 @@
 # EvalCrafter: Benchmarking and Evaluating Large Video Generation Models (CVPR 2024) 🎥📊
 
-[Project Page](http://evalcrafter.github.io) · [Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter)· [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery)· [Paper@ArXiv](https://arxiv.org/abs/2310.11440)· [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset)· [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
+#### [Project Page](http://evalcrafter.github.io) &nbsp; · &nbsp; [Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter) &nbsp; · &nbsp;  [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) &nbsp; · &nbsp; [Paper@ArXiv](https://arxiv.org/abs/2310.11440) &nbsp; · &nbsp;  [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset) &nbsp; · &nbsp;  [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) &nbsp; · &nbsp;  [EvalBoard](https://github.com/evalcrafter/EvalBoard) 
 
 
 <div align="center">
@@ -16,6 +16,8 @@ Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated vide
 #### 🔥 2024/01/24: EvalCrafter Text-to-Video (ECTV) dataset released, around 10000 AI-generated videos in total, take a look at [here](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset)!
 
 #### 🔥 2024/03/07:  Dive into the exciting world of AI-Created Videos at our [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) 🌌✨!
+
+#### 🔥 2024/04/07:  Release the code of [EvalBoard](https://github.com/evalcrafter/EvalBoard) 🌌✨ for video comparsion !
 
 ![AI-Created Video Gallery](https://github.com/evalcrafter/EvalCrafter/blob/master/Gallery.gif)
 
