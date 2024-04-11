@@ -1,6 +1,7 @@
 # EvalCrafter: Benchmarking and Evaluating Large Video Generation Models (CVPR 2024) 🎥📊
 
-#### [Project Page](http://evalcrafter.github.io) &nbsp; · &nbsp; [Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter) &nbsp; · &nbsp;  [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) &nbsp; · &nbsp; [Paper@ArXiv](https://arxiv.org/abs/2310.11440)  &nbsp; · &nbsp;  [EvalBoard](https://github.com/evalcrafter/EvalBoard) **|**  [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset) &nbsp; · &nbsp; [Human Feedback](https://drive.google.com/file/d/1hbSoGoqD6DO2yV2R6wn8NKvK0nUxMDqv/view?usp=sharing) &nbsp; · &nbsp;  [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
+#### [Project Page](http://evalcrafter.github.io) &nbsp; · &nbsp; [Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter) &nbsp; · &nbsp;  [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) &nbsp; · &nbsp; [Paper@ArXiv](https://arxiv.org/abs/2310.11440)  &nbsp; · &nbsp;  [EvalBoard](https://github.com/evalcrafter/EvalBoard)
+#### [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset) &nbsp; · &nbsp; [Human Feedback](https://drive.google.com/file/d/1hbSoGoqD6DO2yV2R6wn8NKvK0nUxMDqv/view?usp=sharing) &nbsp; · &nbsp;  [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
 
 
 <div align="center">
