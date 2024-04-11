@@ -1,7 +1,7 @@
 # EvalCrafter: Benchmarking and Evaluating Large Video Generation Models (CVPR 2024) 🎥📊
 
 #### [Project Page](http://evalcrafter.github.io) &nbsp; · &nbsp; [Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter) &nbsp; · &nbsp;  [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) &nbsp; · &nbsp; [Paper@ArXiv](https://arxiv.org/abs/2310.11440)  &nbsp; · &nbsp;  [EvalBoard](https://github.com/evalcrafter/EvalBoard)
-#### [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset) &nbsp; · &nbsp; [Human Feedback](https://drive.google.com/file/d/1hbSoGoqD6DO2yV2R6wn8NKvK0nUxMDqv/view?usp=sharing) &nbsp; · &nbsp;  [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
+#### [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset) &nbsp; · &nbsp; [Human Feedback](https://drive.google.com/file/d/1hbSoGoqD6DO2yV2R6wn8NKvK0nUxMDqv/view?usp=sharing) &nbsp; · &nbsp;  [Prompt List](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) 
 
 
 <div align="center">
@@ -10,7 +10,7 @@
 
 Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated videos. Our innovative framework assesses generative models across visual, content, and motion qualities using 17 objective metrics and subjective user opinions, providing a reliable ranking for state-of-the-art text-to-video generation models. Dive into the world of unified and user-centric evaluation with EvalCrafter! 🚀🌍📊
 
-#### 🔥 ~~2023/10/22: Release prompt list at [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt)! You can generate the resulting video and send it to vinthony@gmail.com for evaluation!~~
+#### 🔥 ~~2023/10/22: Release prompt list at [Prompt List](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt)! You can generate the resulting video and send it to vinthony@gmail.com for evaluation!~~
 
 #### 🔥 2024/01/10: Code and docker released!
 
