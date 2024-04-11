@@ -20,7 +20,7 @@ Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated vide
 
 #### 🔥 2024/04/07:  Release the code of [EvalBoard](https://github.com/evalcrafter/EvalBoard) 🌌✨ for video comparison !
 
-#### 🔥 2024/04/07:  Release the  human label data, which includes 8.6k feedback, and each feedback covers five aspects like visual quality and t2v alignment. Feel free to download here [Human Feedback](https://drive.google.com/file/d/1hbSoGoqD6DO2yV2R6wn8NKvK0nUxMDqv/view?usp=sharing)！🚀🔥
+#### 🔥 2024/04/07:  Release the  human label data, 8.6k feedback, cover five aspects like visual quality and t2v alignment! Download here [Human Feedback](https://drive.google.com/file/d/1hbSoGoqD6DO2yV2R6wn8NKvK0nUxMDqv/view?usp=sharing)！🚀🔥
 ![AI-Created Video Gallery](https://github.com/evalcrafter/EvalCrafter/blob/master/Gallery.gif)
 
 
