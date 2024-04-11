@@ -1,6 +1,6 @@
 # EvalCrafter: Benchmarking and Evaluating Large Video Generation Models (CVPR 2024) 🎥📊
 
-#### [Project Page](http://evalcrafter.github.io) &nbsp; · &nbsp; [Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter) &nbsp; · &nbsp;  [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) &nbsp; · &nbsp; [Paper@ArXiv](https://arxiv.org/abs/2310.11440) &nbsp; · &nbsp;  [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset) &nbsp; · &nbsp;  [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) &nbsp; · &nbsp;  [EvalBoard](https://github.com/evalcrafter/EvalBoard) 
+#### [Project Page](http://evalcrafter.github.io) &nbsp; · &nbsp; [Leaderboard](https://huggingface.co/spaces/AILab-CVC/EvalCrafter) &nbsp; · &nbsp;  [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) &nbsp; · &nbsp; [Paper@ArXiv](https://arxiv.org/abs/2310.11440) &nbsp; · &nbsp;  [ECTV Dataset](https://huggingface.co/datasets/RaphaelLiu/EvalCrafter_T2V_Dataset) &nbsp; · &nbsp;  [Prompt list](https://github.com/evalcrafter/EvalCrafter/blob/master/prompt700.txt) &nbsp; · &nbsp;  [EvalBoard](https://github.com/evalcrafter/EvalBoard) &nbsp; · &nbsp; [Human Feedback](https://drive.google.com/file/d/1hbSoGoqD6DO2yV2R6wn8NKvK0nUxMDqv/view?usp=sharing)
 
 
 <div align="center">
@@ -17,8 +17,9 @@ Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated vide
 
 #### 🔥 2024/03/07:  Dive into the exciting world of AI-Created Videos at our [Gallery](https://huggingface.co/spaces/RaphaelLiu/EvalCrafter-T2V-Gallery) 🌌✨!
 
-#### 🔥 2024/04/07:  Release the code of [EvalBoard](https://github.com/evalcrafter/EvalBoard) 🌌✨ for video comparsion !
+#### 🔥 2024/04/07:  Release the code of [EvalBoard](https://github.com/evalcrafter/EvalBoard) 🌌✨ for video comparison !
 
+#### 🔥 2024/04/07:  Release the  human label data for our text-to-video dataset, which includes 8.6k feedback, and each feedback covers five aspects like visual quality, t2v alignment, et al. Feel free to download here [Human Feedback](https://drive.google.com/file/d/1hbSoGoqD6DO2yV2R6wn8NKvK0nUxMDqv/view?usp=sharing)！🚀🔥
 ![AI-Created Video Gallery](https://github.com/evalcrafter/EvalCrafter/blob/master/Gallery.gif)
 
 
