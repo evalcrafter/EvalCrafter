@@ -90,7 +90,7 @@ Note: Please organize the pretrained models in this structure:
    docker pull bruceliu1/evalcrafter:v1
    ```
 
-<!-- Alternatively, you could consider using `requirements.txt` or `environment.yml` to set up the environment. -->
+Alternatively, you could consider using `requirements.txt` or `environment.yml` to set up the environment.
 
 ## Usage 🚀
 
