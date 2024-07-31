@@ -21,6 +21,9 @@ Welcome to EvalCrafter, a comprehensive evaluation toolkit for AI-generated vide
 #### 🔥 2024/04/07:  Release the code of [EvalBoard](https://github.com/evalcrafter/EvalBoard) 🌌✨ for video comparison !
 
 #### 🔥 2024/04/11:  Release the  [Human Feedback](https://drive.google.com/file/d/1hbSoGoqD6DO2yV2R6wn8NKvK0nUxMDqv/view?usp=sharing) data, _**8.6k feedback**_, cover _**5 aspects**_ like visual quality and t2v alignment! ！🚀🔥
+
+#### 🔥 2024/08/01:  Environment setup using Conda is Supported！🛫🤘
+
 ![AI-Created Video Gallery](https://github.com/evalcrafter/EvalCrafter/blob/master/Gallery.gif)
 
 
@@ -90,11 +93,19 @@ Note: Please organize the pretrained models in this structure:
    docker pull bruceliu1/evalcrafter:v1
    ```
 
-Alternatively, you could consider using `requirements.txt` or `environment.yml` to set up the environment.
+### Or, create a conda environment  🎮
+
+   ```
+   conda env create -f environment.yml
+   conda activate EvalCrafter
+   ```
+Note that if you encounter this problem  `RuntimeError: GET was unable to find an engine to execute this computation` when running the evaluation code, you may update Cuda to version Cuda 11.7 (Compatibility issue).
+
+
 
 ## Usage 🚀
 
-### Running the Whole Pipeline
+### Running the Whole Pipeline 
 
 1. Run with command line:
 
@@ -116,12 +127,24 @@ Alternatively, you can:
    bash start.sh $EC_path $dir_videos
    ```
 
+3. If you use conda, you can directly run the evaluation code by:
+   ```
+   bash start.sh $EC_path $dir_videos
+   ```
+
 ### Running a Single Metric
 
-🔧 To test a specific metric, pick out the code for the metric in `start.sh`. For example, to test the Celebrity ID Score:
+1. 🔧 To test a specific metric, pick out the code for the metric in `start.sh`. For example, to test the Celebrity ID Score:
 
    ```
    docker run --runtime=nvidia -it --shm-size "15G" -v $EC_path:$EC_path bruceliu1/evalcrafter:v1 bash
+   cd $EC_path
+   cd /metrics/deepface
+   python3 celebrity_id_score.py --dir_videos $dir_videos
+   ```
+
+2. If you use conda, you can directly run the evaluation code by:
+   ```
    cd $EC_path
    cd /metrics/deepface
    python3 celebrity_id_score.py --dir_videos $dir_videos
