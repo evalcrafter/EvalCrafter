@@ -98,6 +98,9 @@ Note: Please organize the pretrained models in this structure:
    ```
    conda env create -f environment.yml
    conda activate EvalCrafter
+
+   cd ./metrics/RAFT/networks/resample2d_package
+   python setup.py install --user
    ```
 Note that if you encounter this problem  `RuntimeError: GET was unable to find an engine to execute this computation` when running the evaluation code, you may update Cuda to version Cuda 11.7 (Compatibility issue).
 
