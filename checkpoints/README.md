@@ -1,5 +1,5 @@
 # Download pretrained models
-You may download all checkpoints from [hugginface](https://huggingface.co/RaphaelLiu/EvalCrafter-Models/). Or you can download them separately from the original repositories:
+You may download all checkpoints from [huggingface](https://huggingface.co/RaphaelLiu/EvalCrafter-Models/). Or you can download them separately from the original repositories:
 
 ## Celebrity_ID_Score
 ```
