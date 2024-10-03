@@ -81,7 +81,7 @@ unzip models.zip
 
 ## Warping Error
 ```
-gdown --id "1hF8vS6YeHkx3j2pfCeQqqZGwA_PJq_Da"
+wget https://huggingface.co/RaphaelLiu/EvalCrafter-Models/resolve/main/FlowNet2_checkpoint.pth.tar
 ```
 
 ## Count-Score, Color-Score, Detection-Score
